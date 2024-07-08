@@ -1,0 +1,32 @@
+module MAC (in1,in2,clk,rst,result);
+    input signed [15:0] in1,in2;
+    input rst, clk;
+    output signed [15:0] result;
+
+ `pragma protect begin_protected
+`pragma protect version = 1
+`pragma protect encrypt_agent = "QuestaSim" , encrypt_agent_info = "2021.1"
+`pragma protect key_keyowner = "Mentor Graphics Corporation" , key_keyname = "MGC-VERIF-SIM-RSA-2"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = ( enctype = "base64" , line_length = 64 , bytes = 256 )
+`pragma protect key_block
+efdCGtZp2qGZCNAXdVdEnjUb0jVv+4Q5AJgAItk4E+yoAETQcujVB0GbSbPETJ7q
+CHSyl6lXH/up8tEgYxsxuyMeWgfD/hUaxnthijL9xP3hxCV4gFCWTOtZy6yYTVjE
+kRTQMIxML7XE1GgpSg5lGZ7feHRA3nGYvPC4ASqCU0ZNMpzMKasVPAIuTm0/V9U2
++joZt9ElurQSp8OTH9LQQS6oIloaoFE8zBVyf4E+by4De5j3fIomG/UpXoijXeS6
+DuC8LWtpVMO1+2SA6aqdSdQgTJij/OHQchU39iQkDH/5a4fYmSscbuIfxFBn9Dbc
+4Gu0pp2HWHoYyaWvJE+FKQ==
+`pragma protect data_method = "aes128-cbc"
+`pragma protect encoding = ( enctype = "base64" , line_length = 64 , bytes = 368 )
+`pragma protect data_block
+Zx9HTA9JGKsQucN1vfQu8qHPtrb1PkuSI17GGRCp8QNtG0lkVOPWmAEyzk8kriXm
+Xz538+ifYridb8fXz1rkPolCITMPdaND/eJuMUfBLJj5cn+WmRaJyvnG+iFRiVfQ
+4OxeXb8fDlgPRHp0m+KlhGlVEU9bEwGi4SczIly1gDwZxI5T+ZrfdJkMmhyvR8jU
+WJcuDhW1VsoSFt+tZHDp8G8pA9YWqJV8XyFvxj0scxGHRuiF/siDLz1wWoKIv+gs
+ek5s60D/ge6CCLxryBKZAavp1TDeFoc9NHfBZ8NnEy9Phx/sMwNDZ1VrhBe0CSuj
+Or8by53mebNTovalRb46VBPGrH2Le9OHC/ltRib5NxQrUCxfgnvDMfOGh+JlytwY
+amwoFmZoc8EQkp+BUTEoZyH9dETJc1TDga+1f954xzQPvcRg0nUqpdvQ+NCklvRZ
+F0diChyydBr24SHhEcpaR3lUyZNdE9OJEzpmeE3H934=
+`pragma protect end_protected
+
+endmodule
